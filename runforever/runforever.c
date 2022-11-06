@@ -8,7 +8,6 @@
 #endif
 
 int main(int argc, char *argv[]) {
-    const char* str1 = "hello there";
     int n1 = 1;
 
     char *num;
