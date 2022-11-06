@@ -12,6 +12,11 @@ Make sure that your local computing environment has a C compiler (`gcc`) install
 ```
 gcc runforever.c -o runforever
 ```
+You'll get output similar to the following:
+
+```
+TO BE PROVIDED
+```
 
 # Building and running runforever as Linux container
 
@@ -20,15 +25,37 @@ gcc runforever.c -o runforever
 ```
 docker build -t runforever_image .
 ```
+`Step 2` Take a look at the current list of container images installed on the local machine
 
-`Step 2` Run the container using the container image `runforever_image` in the background.
+```
+docker images
+```
+You'll get output similar to the following:
+
+```
+TO BE PROVIDED
+```
+
+`Step 3` Run the container using the container image `runforever_image` in the background.
 
 ```
 docker run -d --name runforever_app runforever_image
 ```
 
-`Step 3` Get the statistics about the container `runforever_app`
+You'll get output similar to the following:
 
 ```
-`docker stats --no-stream runforever_app
+TO BE PROVIDED
 ```
+
+
+`Step 4` Get the statistics about the container `runforever_app`
+
+```
+docker stats --no-stream runforever_app
+```
+
+You'll get output similar to the following:
+
+```
+TO BE PROVIDED
