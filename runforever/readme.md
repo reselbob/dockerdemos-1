@@ -25,6 +25,7 @@ TO BE PROVIDED
 ```
 docker build -t runforever_image .
 ```
+
 `Step 2` Take a look at the current list of container images installed on the local machine
 
 ```
@@ -59,3 +60,4 @@ You'll get output similar to the following:
 
 ```
 TO BE PROVIDED
+```
